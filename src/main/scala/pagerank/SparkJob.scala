@@ -1,4 +1,4 @@
-package ut.ia.pagerank
+package pagerank
 
 import java.io.File
 
@@ -8,7 +8,7 @@ import org.apache.spark.sql.SparkSession
 
 trait SparkJob {
 
-  protected val logger = Logger(getClass)
+  protected val logger: Logger = Logger(getClass)
 
   val name: String
 

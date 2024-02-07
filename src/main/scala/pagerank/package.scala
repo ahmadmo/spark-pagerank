@@ -1,5 +1,3 @@
-package ut.ia
-
 import org.apache.spark.rdd.RDD
 
 package object pagerank {

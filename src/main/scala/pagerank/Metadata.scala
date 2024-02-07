@@ -1,4 +1,4 @@
-package ut.ia.pagerank
+package pagerank
 
 import org.apache.spark.sql.SparkSession
 
